@@ -12,4 +12,4 @@ The initial pattern constitutes the seed of the system. The first generation is 
 ## Run the Game ##
 
 ``` python
-python gameoflife.py ```
+python gameoflife.py 
