@@ -36,5 +36,5 @@ So for a better visualization, I have experimented with the matplotlib library w
 An interesting case occurs when the current state and the next state continue to toggle between each other and this creates an infinite loop.
 
 ![Infinite State1](https://github.com/palakraman17/GameOfLife/blob/main/images/infinite_state_1.png)
-![Infinite State2](https://github.com/palakraman17/GameOfLife/blob/main/images/infinite_state_1.png)
+![Infinite State2](https://github.com/palakraman17/GameOfLife/blob/main/images/infinite_state_2.png)
 
