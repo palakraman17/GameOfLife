@@ -16,8 +16,10 @@ We can call this as our current state then check for the neighbours of the cell 
 Now we have obtained a new state of the grid, we check if it is same as the current state, if not we go ahead with the next generation. 
 The game continues until the states are not repeating or all the cells in the grid are not dead. 
 
-I initially displayed the grid using a simple function to see the action using special characters to spice it up but there was something missing. 
+I initially displayed the grid using a simple function to see the action using binary 0 and 1 and later some special characters to spice it up but there was something missing. 
 So for a better visualization, I have experimented with the matplotlib library with my favourite colors as opposed to black and white to give a more game vibe!
+
+![Phase1](https://github.com/palakraman17/GameOfLife/blob/main/images/phase1.png) ![Phase2](https://github.com/palakraman17/GameOfLife/blob/main/images/phase2.png) ![Phase3](https://github.com/palakraman17/GameOfLife/blob/main/images/phase3.png)
 
 ## Requirements
 
@@ -33,6 +35,6 @@ So for a better visualization, I have experimented with the matplotlib library w
 
 An interesting case occurs when the current state and the next state continue to toggle between each other and this creates an infinite loop.
 
-![Infinite State1](https://github.com/palakraman17/GameOfLife/blob/main/infinite_state_1.png )
-![Infinite State2](https://github.com/palakraman17/GameOfLife/blob/main/infinite_state_2.png )
+![Infinite State1](https://github.com/palakraman17/GameOfLife/blob/main/images/infinite_state_1.png)
+![Infinite State2](https://github.com/palakraman17/GameOfLife/blob/main/images/infinite_state_1.png)
 
